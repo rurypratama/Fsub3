@@ -117,12 +117,12 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("🔅 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ 🔅", callback_data="about")],
             [
-                InlineKeyboardButton("☢️𝗖𝗛𝗔𝗡𝗡𝗘𝗟☢️", url=client.invitelink),
-                InlineKeyboardButton("☢️𝗚𝗥𝗢𝗨𝗣☢️", url=client.invitelink2),
+                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink),
+                InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("☢️𝗖𝗛𝗔𝗡𝗡𝗘𝗟☢️", url=client.invitelink3),
-                InlineKeyboardButton("☢️𝗚𝗥𝗢𝗨𝗣☢️", url=client.invitelink4), 
+                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3),
+                InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink4), 
             ],  
             [
                 InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
@@ -152,12 +152,12 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("☢️𝗖𝗛𝗔𝗡𝗡𝗘𝗟☢️", url=client.invitelink), 
-            InlineKeyboardButton("☢️𝗚𝗥𝗢𝗨𝗣☢️", url=client.invitelink2),
+            InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink), 
+            InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("☢️𝗖𝗛𝗔𝗡𝗡𝗘𝗟☢️", url=client.invitelink3), 
-            InlineKeyboardButton("☢️𝗚𝗥𝗢𝗨𝗣☢️", url=client.invitelink4),
+            InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3), 
+            InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink4),
         ],
     ]
     try:
