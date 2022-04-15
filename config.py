@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recife By Zaen #Mafia_Tobatz
+# Recode By Zaen #Mafia_Tobatz
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -39,7 +39,6 @@ FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
