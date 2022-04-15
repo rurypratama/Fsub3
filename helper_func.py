@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recife By @Mafia_Tobatz
+# Recode By @Mafia_Tobatz
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -20,8 +20,6 @@ async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL1: 
         return True
     if not FORCE_SUB_GROUP:
-        return True
-    if not FORCE_SUB_GROUP1:
         return True
     user_id = update.from_user.id
     if user_id in ADMINS:
