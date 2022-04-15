@@ -12,8 +12,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 async def is_subscribed(filter, client, update):
  
-    if not FORCE_SUB_CHANNEL: 
-        return True
+       
     if not FORCE_SUB_GROUP:
         return True
     if not FORCE_SUB_GROUP1:
