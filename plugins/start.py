@@ -119,10 +119,8 @@ async def start_command(client: Client, message: Message):
             [
                 InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink),
                 InlineKeyboardButton("•ɢʀᴜᴘ•", url=client.invitelink2),
-            ],
-            [
-                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3),
-                
+            ],   
+                InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ•", url=client.invitelink3),                
             [
                 InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
             ],
